@@ -1,0 +1,18 @@
+// Color
+$white: #fff;
+$black: #000;
+$dark: #1f1f1f;
+$lighter: #eaeaea;
+$light: #dcdcdc;
+
+//reusable
+
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin mx-auto() {
+  margin: 0 auto;
+}
